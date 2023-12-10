@@ -3,6 +3,13 @@
   margin: 20px auto;
 }
 
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
 .tasks .task {
   background-color: white;
   border: 1px solid black;
@@ -48,6 +55,7 @@
   grid-template-columns: 1fr;
   grid-gap: 10px;
   margin-bottom: 20px;
+  align-items: baseline;
 }
 
 .new-task .form-group {
